@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -32,8 +32,12 @@ body {
 }
 
 h1 {
+  font-weight: 700;
   font-size: 3.2em;
   line-height: 1.1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(249, 242, 233);
+  -webkit-text-stroke: 1px black;
 }
 
 #app {
@@ -50,24 +54,20 @@ h1 {
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #696dbfaa);
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
+  filter: drop-shadow(0 0 2em #464ebdaa);
 }
 
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background: linear-gradient(180deg, #ffffff 0%, #f6d1ec 100%);
+    background: linear-gradient(180deg, #626fe1 0%, #f8cc54 100%);
   }
   a:hover {
     color: #747bff;
