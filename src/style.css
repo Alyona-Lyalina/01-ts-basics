@@ -64,10 +64,10 @@ h1 {
   padding: 2em;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light), (prefers-color-scheme: dark) {
   :root {
     color: #213547;
-    background: linear-gradient(180deg, #626fe1 0%, #f8cc54 100%);
+    background: linear-gradient(180deg, #626fe1 0%, #e5c364 100%);
   }
   a:hover {
     color: #747bff;
